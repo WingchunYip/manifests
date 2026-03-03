@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
 - ../oauth2-proxy
 - ../../../istio-namespace/base
-#- namespaces-pss-privileged.yaml
+- namespaces-pss-privileged.yaml
 
 patches:
 - path: configmap-patch.yaml
