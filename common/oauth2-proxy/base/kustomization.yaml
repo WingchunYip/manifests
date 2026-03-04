@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: oauth2-proxy
 
 resources:
-- namespace.yaml
+#- namespace.yaml
 - default-allow-same-namespace.yaml
 - allow-istio-ingressgateway.yaml
 - deployment.yaml
