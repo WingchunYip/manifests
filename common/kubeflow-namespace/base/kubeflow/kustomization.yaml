@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: kubeflow
 
 resources:
-- namespace.yaml
+#- namespace.yaml
 - cache-server.yaml
 - centraldashboard.yaml
 - default-allow-same-namespace.yaml
