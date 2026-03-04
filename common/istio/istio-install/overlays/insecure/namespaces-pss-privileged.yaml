@@ -38,3 +38,5 @@ metadata:
   labels:
     istio-injection: enabled
     pod-security.kubernetes.io/enforce: privileged
+    app.kubernetes.io/name: knative-serving
+    app.kubernetes.io/version: "1.21.1"
